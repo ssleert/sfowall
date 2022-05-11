@@ -1,0 +1,67 @@
+body {
+	font-family: sans-serif;
+	background-color: #ffffff;
+	color: #212121;
+}
+
+.theme {
+	text-align: right;
+	margin-right: 1rem;
+	margin-top: 1rem;	
+}
+
+.theme-switch {
+	text-shadow: 0 0 3px;
+	text-decoration: none;
+	color: #212121;
+}
+
+.sfo {
+	text-shadow: 0 0 6px;
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 6rem;
+}
+
+.idea {
+	text-shadow: 0 0 3px;
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 10rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;	
+	margin: 6rem;
+}
+
+@media screen and (min-width: 1441px) {
+	.image {
+		height: 18rem;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.image {
+		height: 10rem;
+	}
+}
+
+.image {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-radius: 8px
+}
+
+.github {
+	text-shadow: 0 0 3px;
+	text-decoration: none;
+	color: #212121;
+}
+
+.love {
+	text-shadow: 0 0 3px;
+	text-align: center;
+	margin-top: 7rem;
+	margin-bottom: 5rem;
+}
