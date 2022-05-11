@@ -4,12 +4,13 @@ body {
 	color: #ffffff;
 }
 
-.by {
+.theme {
+	text-align: right;
 	margin-right: 1rem;
-	margin-top: 1rem;
+	margin-top: 1rem;	
 }
 
-.theme {
+.theme-switch {
 	text-shadow: 0 0 3px;
 	text-decoration: none;
 	color: #ffffff;
@@ -17,20 +18,22 @@ body {
 
 .sfo {
 	text-shadow: 0 0 6px;
+	text-align: center;
 	font-size: 4rem;
 	margin-top: 6rem;
 }
 
 .idea {
 	text-shadow: 0 0 3px;
+	text-align: center;
 	font-size: 2rem;
 	margin-bottom: 10rem;
 }
 
 .row {
-	margin: 6rem;
 	display: flex;
 	justify-content: space-around;	
+	margin: 6rem;
 }
 
 @media screen and (min-width: 1441px) {
@@ -58,6 +61,7 @@ body {
 
 .love {
 	text-shadow: 0 0 3px #000000;
-	margin-top: 10rem;
+	text-align: center;
+	margin-top: 7rem;
 	margin-bottom: 5rem;
 }
