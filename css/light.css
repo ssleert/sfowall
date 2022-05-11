@@ -57,6 +57,7 @@ body {
 }
 
 .love {
-	text-shadow: 0 0 30px;
+	text-shadow: 0 0 3px;
+	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
